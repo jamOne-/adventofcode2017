@@ -9,7 +9,8 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/01\\01_test.ts",
+            "program": "${file}",
+            "cwd": "${fileDirname}",
             "outFiles": [
                 "${workspaceFolder}/**/*.js"
             ]

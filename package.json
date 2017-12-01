@@ -1,0 +1,14 @@
+{
+  "name": "adventofcode2017",
+  "version": "1.0.0",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:watch": "tsc --watch"
+  },
+  "author": "jamone-",
+  "dependencies": {
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "typescript": "^2.6.2"
+  }
+}

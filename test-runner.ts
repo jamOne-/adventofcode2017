@@ -3,11 +3,11 @@ const reset = '\x1b[0m';
 
 export type Test = {
     input: string;
-    output: number;
+    output: any;
     message?: string;
 };
 
-export function runTests(solver: (input: string) => number, testList: Test[]) {
+export function runTests(solver: (input: string) => any, testList: Test[]) {
     let testsFailed = 0;
 
     console.info('[Tests] Starting tests...');

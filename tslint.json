@@ -7,7 +7,8 @@
     "rules": {
         "max-line-length": [true, 120],
         "ter-indent": [true, 4],
-        "ter-arrow-parens": false
+        "ter-arrow-parens": false,
+        "no-parameter-reassignment": false
     },
     "rulesDirectory": []
 }

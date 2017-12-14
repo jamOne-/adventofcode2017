@@ -52,7 +52,7 @@ function round({ lengths, list, i, skip }: { lengths: number[] } & RoundResult):
     return { list, i, skip };
 }
 
-function solve(input: string, items = 256) {
+export function solve(input: string, items = 256) {
     const lengthsSuffix = [17, 31, 73, 47, 23];
     const lengths = [...input.split('').map(char => char.charCodeAt(0)), ...lengthsSuffix];
 
